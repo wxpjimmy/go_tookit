@@ -21,7 +21,7 @@ var top_n_query_str = `{
       {
         "type": "regex",
         "dimension": "dsp",
-        "pattern": "xiaomi\\..*"
+        "pattern": "ccc\\..*"
       },
       {
         "type": "regex",
@@ -76,7 +76,7 @@ var group_by_query_str = `{
       {
         "type": "regex",
         "dimension": "dsp",
-        "pattern": "xiaomi\\.(?!schedule).*"
+        "pattern": "ccc\\.(?!schedule).*"
       },
       {
         "type": "regex",
