@@ -116,7 +116,7 @@ var group_by_query_str = `{
       ]
     }
    ],
-  "intervals": [ "2019-03-18T00:00:00.000/2019-03-19T00:00:00.000" ]
+  "intervals": [ "2019-07-09T00:00:00.000/2019-07-10T00:00:00.000" ]
 }`
 
 var url = "http://broker.druid.data.srv/druid/v2"
@@ -176,10 +176,6 @@ func GetDspFeeStat() {
 		res.totalFee += d.event.fee
 		res.perDspData[d.event.dsp] = d.event
 	}
-
-
-
-
 
 }
 

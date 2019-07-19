@@ -13,7 +13,7 @@ import (
 
 func main() {
 	druid.GetDspFeeStat()
-
+	//fmt.Println("GitUrl: ", demo.GetExistedGitUrl("/e/Projects/Go/toolkit"))
 	//testJson()
 
 	httpserver.StartServer()
