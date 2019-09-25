@@ -13,7 +13,7 @@ import (
 var uploadFolder *string
 
 func StartFileServer() {
-	uploadFolder = flag.String("uploadfolder", "/home/work/data/stress", "folder to store the upload files") //http://c4-miui-ad-sup01.bj:8090/upload
+	uploadFolder = flag.String("uploadfolder", "/home/work/data/stress", "folder to store the upload files") 
 	flag.Parse()
 	fmt.Println(*uploadFolder)
 	if _, err := os.Stat(*uploadFolder); os.IsNotExist(err) {
